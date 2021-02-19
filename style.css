@@ -70,10 +70,12 @@
 
 /* Modal Content (Image) */
 .modal-content {
+    position: relative;
+    background-color: #fefefe;
     margin: auto;
-    display: block;
-    width: 50%;
-    max-width: 50%;
+    padding: 0;
+    width: 90%;
+    max-width: 400px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */

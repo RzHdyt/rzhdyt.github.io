@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="lite-purple.css" rel="stylesheet" />
     <link href="perfect-scrollbar.min.css" rel="stylesheet" />
-    <link href="style.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link href="all.min.css" rel="stylesheet" />
 </head>
 
 <body class="text-left">
     <!-- Load Screen -->
     <div class='loadscreen' id="preloader">
-        <div class="loader spinner-bubble spinner-bubble-primary"></div>
+        <div class="loader spinner-bubble spinner-bubble-light"></div>
     </div>
 
     <div class="app-admin-wrap layout-sidebar-large">
@@ -30,7 +30,7 @@
                         </div>
                         <div class="user-info">
                             <!-- Trigger the Modal -->
-                            <img id="myImg" src="assets/img/profile-grey.JPG" alt="Rizky Hidayat"
+                            <img id="myImg" src="assets/img/profile-grey.JPG" alt=""
                                 class="myImg profile-picture avatar-lg mb-2">
                             <!-- The Modal -->
                             <div id="myModal" class="modal">
@@ -238,18 +238,86 @@
                                     </div>
 
                                 </div>
-
+                                <!-- ------------------------------------------------------------------- -->
                                 <!-- portfolio tab -->
                                 <div class="tab-pane fade" id="portfolio" role="tabpanel"
                                     aria-labelledby="portfolio-tab">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            This page for portfolio
-                                            <br>
                                             -- This page is currently under reconstruction --
-                                            <br>
-                                            <a href="assets/pdf/cv.pdf" class="btn btn-gray-300 rounded"><i
-                                                    class="fas fa-file-pdf"></i> &nbsp; download cv</a>
+                                            <!-- Images used to open the lightbox -->
+                                            <!-- <div class="row">
+                                                <div class="column">
+                                                    <img src="./assets/img/background-grey.jpg"
+                                                        onclick="openModal();currentSlide(1)" class="hover-shadow">
+                                                </div>
+                                                <div class="column">
+                                                    <img src="./assets/img/profile-blue.JPG"
+                                                        onclick="openModal();currentSlide(2)" class="hover-shadow">
+                                                </div>
+                                                <div class="column">
+                                                    <img src="./assets/img/profile-red.jpg"
+                                                        onclick="openModal();currentSlide(3)" class="hover-shadow">
+                                                </div>
+                                                <div class="column">
+                                                    <img src="./assets/img/profile-grey.JPG"
+                                                        onclick="openModal();currentSlide(4)" class="hover-shadow">
+                                                </div>
+                                            </div> -->
+
+                                            <!-- The Modal/Lightbox -->
+                                            <!-- <div id="myModal" class="modal">
+                                                <span class="close cursor" onclick="closeModal()">&times;</span>
+                                                <div class="modal-content">
+
+                                                    <div class="mySlides">
+                                                        <div class="numbertext">1 / 4</div>
+                                                        <img src="img1_wide.jpg" style="width:100%">
+                                                    </div>
+
+                                                    <div class="mySlides">
+                                                        <div class="numbertext">2 / 4</div>
+                                                        <img src="img2_wide.jpg" style="width:100%">
+                                                    </div>
+
+                                                    <div class="mySlides">
+                                                        <div class="numbertext">3 / 4</div>
+                                                        <img src="img3_wide.jpg" style="width:100%">
+                                                    </div>
+
+                                                    <div class="mySlides">
+                                                        <div class="numbertext">4 / 4</div>
+                                                        <img src="img4_wide.jpg" style="width:100%">
+                                                    </div>
+
+                                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                                    <div class="caption-container">
+                                                        <p id="caption"></p>
+                                                    </div>
+
+                                                    <div class="column">
+                                                        <img class="demo" src="img1.jpg" onclick="currentSlide(1)"
+                                                            alt="Nature">
+                                                    </div>
+
+                                                    <div class="column">
+                                                        <img class="demo" src="img2.jpg" onclick="currentSlide(2)"
+                                                            alt="Snow">
+                                                    </div>
+
+                                                    <div class="column">
+                                                        <img class="demo" src="img3.jpg" onclick="currentSlide(3)"
+                                                            alt="Mountains">
+                                                    </div>
+
+                                                    <div class="column">
+                                                        <img class="demo" src="img4.jpg" onclick="currentSlide(4)"
+                                                            alt="Lights">
+                                                    </div>
+                                                </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +403,7 @@
     <script src="assets/js/perfect-scrollbar.min.js"></script>
     <script src="assets/js/script.min.js"></script>
     <script src="assets/fontawesome/js/all.min.js"></script>
-    <script src="assets/js/custom-script.js"></script>
+    <script src="assets/js/custom-script.min.js"></script>
     <!-- <script src="sidebar.large.script.min.js"></script> -->
 </body>
 
